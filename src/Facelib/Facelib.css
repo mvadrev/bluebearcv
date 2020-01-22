@@ -1,0 +1,25 @@
+.facelib-head {
+  background-color: #282c34;
+  display: grid;
+  grid-template-columns: 9fr 1fr;
+}
+
+.facelib-header-text {
+  filter: invert(1);
+  margin: 0.7rem;
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.facelib-card {
+  border-radius: 8px;
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  margin: 1rem;
+}
+
+.facelib-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
